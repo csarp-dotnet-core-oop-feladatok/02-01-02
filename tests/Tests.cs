@@ -6,9 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
+<<<<<<< HEAD
 using RectangleProject.Models;
 
 namespace RectangleProject.Tests
+=======
+namespace gyak_01_02_01_Maze.Tests
+>>>>>>> f384c7da00e3b2e8eb3bd3c9d5bde9bbd693350a
 {
     [TestClass()]
     public class Tests
@@ -16,6 +20,7 @@ namespace RectangleProject.Tests
         [TestMethod()]
         public void Test()
         {
+<<<<<<< HEAD
             Rectangle r = new Rectangle(4.25,7.34);
             double expectedSideA = 4.25;
             double actualSideA = r.SideA;
@@ -61,4 +66,9 @@ namespace RectangleProject.Tests
 
         }
     }
+=======
+            Assert.Fail();
+        }
+   }
+>>>>>>> f384c7da00e3b2e8eb3bd3c9d5bde9bbd693350a
 }
