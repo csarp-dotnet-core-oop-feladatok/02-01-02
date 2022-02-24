@@ -6,21 +6,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-<<<<<<< HEAD
 using RectangleProject.Models;
 
-namespace RectangleProject.Tests
-=======
-namespace gyak_01_02_01_Maze.Tests
->>>>>>> f384c7da00e3b2e8eb3bd3c9d5bde9bbd693350a
+namespace RectangleProject.Tests 
 {
+
+
+
     [TestClass()]
     public class Tests
     {
-        [TestMethod()]
-        public void Test()
-        {
-<<<<<<< HEAD
+
             Rectangle r = new Rectangle(4.25,7.34);
             double expectedSideA = 4.25;
             double actualSideA = r.SideA;
@@ -63,12 +59,6 @@ namespace gyak_01_02_01_Maze.Tests
             Assert.IsTrue(haveSideB, "A ToString metódus nem jeleníti meg az egyik oldalt");
             Assert.IsTrue(haveParimeter, "A ToString metódus nem jeleníti meg a kerületet két tizedes jegy pontossággal!");
             Assert.IsTrue(haveArea, "A ToString metódus nem jeleníti meg a területet két tizedes jegy pontosságal.");
-
         }
     }
-=======
-            Assert.Fail();
-        }
-   }
->>>>>>> f384c7da00e3b2e8eb3bd3c9d5bde9bbd693350a
 }
